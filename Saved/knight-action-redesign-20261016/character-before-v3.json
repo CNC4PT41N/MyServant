@@ -1,0 +1,4551 @@
+{
+  "name": "小骑士",
+  "renderer": "images",
+  "color": "#e7edf3",
+  "fps": 6,
+  "motion": false,
+  "states": {
+    "idle": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          83,
+          14,
+          189,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          9,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          285,
+          14,
+          394,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          6,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          488,
+          14,
+          603,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          694,
+          14,
+          801,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          8,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      }
+    ],
+    "work": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          36,
+          1223,
+          250,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          24,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          263,
+          1223,
+          410,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          43,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          461,
+          1223,
+          663,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          666,
+          1223,
+          864,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      }
+    ],
+    "study": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          56,
+          683,
+          225,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          25,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          248,
+          683,
+          443,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          15,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          683,
+          699,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          699,
+          683,
+          850,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      }
+    ],
+    "sleep": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          40,
+          360,
+          210,
+          492
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          171,
+          132
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.6198830409356725,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          247,
+          360,
+          418,
+          492
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          171,
+          132
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.6198830409356725,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          460,
+          360,
+          627,
+          492
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          171,
+          132
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.6198830409356725,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          668,
+          360,
+          836,
+          492
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          171,
+          132
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.6198830409356725,
+          0.6
+        ]
+      }
+    ],
+    "eat": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          62,
+          507,
+          199,
+          671
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          138,
+          164
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.4855072463768116,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          272,
+          507,
+          409,
+          671
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          138,
+          164
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.4855072463768116,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          486,
+          507,
+          619,
+          671
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          138,
+          164
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.4855072463768116,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          690,
+          507,
+          827,
+          671
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          138,
+          164
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.4855072463768116,
+          0.6
+        ]
+      }
+    ],
+    "relax": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          76,
+          194,
+          202,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          14,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          275,
+          194,
+          414,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          480,
+          194,
+          617,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          690,
+          194,
+          816,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          13,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      }
+    ],
+    "idle_left": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "idle_right": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": true
+      }
+    ],
+    "idle_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          83,
+          14,
+          189,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          9,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          285,
+          14,
+          394,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          6,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          488,
+          14,
+          603,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          694,
+          14,
+          801,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          8,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      }
+    ],
+    "idle_bottom": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "relax_left": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "relax_right": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": true
+      }
+    ],
+    "relax_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          76,
+          194,
+          202,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          14,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          275,
+          194,
+          414,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          480,
+          194,
+          617,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          690,
+          194,
+          816,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          13,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      }
+    ],
+    "relax_bottom": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          430,
+          690,
+          770,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "work_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          900,
+          0,
+          1253,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "study_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          8,
+          0,
+          356,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "eat_left": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          750,
+          95,
+          1065,
+          430
+        ],
+        "scale": 3
+      }
+    ],
+    "sleep_left": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          1100,
+          105,
+          1425,
+          430
+        ],
+        "scale": 3
+      }
+    ],
+    "work_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          36,
+          1223,
+          250,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          24,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          263,
+          1223,
+          410,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          43,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          461,
+          1223,
+          663,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          666,
+          1223,
+          864,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      }
+    ],
+    "study_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          56,
+          683,
+          225,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          25,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          248,
+          683,
+          443,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          15,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          683,
+          699,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          699,
+          683,
+          850,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      }
+    ],
+    "eat_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          94,
+          722,
+          303,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          455,
+          722,
+          663,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          817,
+          722,
+          1025,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          1177,
+          722,
+          1386,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      }
+    ],
+    "sleep_top": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          1090,
+          450,
+          1448,
+          800
+        ],
+        "scale": 3
+      }
+    ],
+    "work_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          900,
+          650,
+          1253,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "study_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          8,
+          650,
+          356,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "eat_bottom": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          775,
+          800,
+          1080,
+          1086
+        ],
+        "scale": 3
+      }
+    ],
+    "sleep_bottom": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          1110,
+          825,
+          1448,
+          1086
+        ],
+        "scale": 3
+      }
+    ],
+    "work_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          900,
+          0,
+          1253,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "study_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          8,
+          0,
+          356,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "eat_right": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          750,
+          95,
+          1065,
+          430
+        ],
+        "scale": 3,
+        "flip": true
+      }
+    ],
+    "sleep_right": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          1100,
+          105,
+          1425,
+          430
+        ],
+        "scale": 3,
+        "flip": true
+      }
+    ],
+    "process_read": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          54,
+          1574,
+          213,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          269,
+          1574,
+          428,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          1574,
+          638,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          1574,
+          837,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      }
+    ],
+    "process_notes": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          54,
+          1574,
+          213,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          269,
+          1574,
+          428,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          1574,
+          638,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          1574,
+          837,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      }
+    ],
+    "process_code": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          36,
+          1223,
+          250,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          24,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          263,
+          1223,
+          410,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          43,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          461,
+          1223,
+          663,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          666,
+          1223,
+          864,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      }
+    ],
+    "process_sketch": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          59,
+          1038,
+          205,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          275,
+          1038,
+          407,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          9,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          494,
+          1038,
+          629,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          687,
+          1038,
+          832,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      }
+    ],
+    "process_organize": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          71,
+          1393,
+          215,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          273,
+          1393,
+          416,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          5,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          477,
+          1393,
+          620,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          689,
+          1393,
+          838,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      }
+    ],
+    "process_review": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          54,
+          1574,
+          213,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          269,
+          1574,
+          428,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          1574,
+          638,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          1574,
+          837,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      }
+    ],
+    "feedback_look": [
+      {
+        "image": "assets/hollow_knight/feedback-atlas.png",
+        "rect": [
+          0,
+          0,
+          647,
+          607
+        ],
+        "scale": 4
+      }
+    ],
+    "feedback_notes": [
+      {
+        "image": "assets/hollow_knight/feedback-atlas.png",
+        "rect": [
+          647,
+          0,
+          1294,
+          607
+        ],
+        "scale": 4
+      }
+    ],
+    "feedback_bowl": [
+      {
+        "image": "assets/hollow_knight/feedback-atlas.png",
+        "rect": [
+          0,
+          607,
+          647,
+          1214
+        ],
+        "scale": 4
+      }
+    ],
+    "feedback_sit": [
+      {
+        "image": "assets/hollow_knight/feedback-atlas.png",
+        "rect": [
+          647,
+          607,
+          1294,
+          1214
+        ],
+        "scale": 4
+      }
+    ],
+    "drag": [
+      {
+        "image": "assets/hollow_knight/drag.png",
+        "rect": [
+          410,
+          235,
+          835,
+          980
+        ],
+        "scale": 5
+      }
+    ],
+    "process_nail_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          8,
+          0,
+          356,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "process_nail_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          8,
+          0,
+          356,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "process_nail_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          56,
+          683,
+          225,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          25,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          248,
+          683,
+          443,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          15,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          683,
+          699,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          699,
+          683,
+          850,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      }
+    ],
+    "process_nail_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          8,
+          650,
+          356,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "process_nail": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          56,
+          683,
+          225,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          25,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          248,
+          683,
+          443,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          15,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          683,
+          699,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          699,
+          683,
+          850,
+          852
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          233,
+          169
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.48068669527896996,
+          0.6
+        ]
+      }
+    ],
+    "process_shell_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          377,
+          0,
+          594,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "process_shell_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          377,
+          0,
+          594,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "process_shell_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          52,
+          868,
+          200,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          263,
+          868,
+          404,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          473,
+          868,
+          617,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          868,
+          826,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      }
+    ],
+    "process_shell_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          377,
+          650,
+          594,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "process_shell": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          52,
+          868,
+          200,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          263,
+          868,
+          404,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          473,
+          868,
+          617,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          868,
+          826,
+          1021
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          149,
+          153
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.5167785234899329,
+          0.6
+        ]
+      }
+    ],
+    "process_soul_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          644,
+          0,
+          874,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "process_soul_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          644,
+          0,
+          874,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "process_soul_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          59,
+          1038,
+          205,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          275,
+          1038,
+          407,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          9,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          494,
+          1038,
+          629,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          687,
+          1038,
+          832,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      }
+    ],
+    "process_soul_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          644,
+          650,
+          874,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "process_soul": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          59,
+          1038,
+          205,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          275,
+          1038,
+          407,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          9,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          494,
+          1038,
+          629,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          687,
+          1038,
+          832,
+          1209
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          146,
+          171
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.4863013698630137,
+          0.6
+        ]
+      }
+    ],
+    "process_battle_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          900,
+          0,
+          1253,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "process_battle_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          900,
+          0,
+          1253,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "process_battle_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          36,
+          1223,
+          250,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          24,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          263,
+          1223,
+          410,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          43,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          461,
+          1223,
+          663,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          666,
+          1223,
+          864,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      }
+    ],
+    "process_battle_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          900,
+          650,
+          1253,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "process_battle": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          36,
+          1223,
+          250,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          24,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          263,
+          1223,
+          410,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          43,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          461,
+          1223,
+          663,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          666,
+          1223,
+          864,
+          1382
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          238,
+          159
+        ],
+        "offset": [
+          40,
+          0
+        ],
+        "body_anchor": [
+          0.5672268907563025,
+          0.6
+        ]
+      }
+    ],
+    "process_flower_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1260,
+          0,
+          1494,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "process_flower_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1260,
+          0,
+          1494,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "process_flower_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          71,
+          1393,
+          215,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          273,
+          1393,
+          416,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          5,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          477,
+          1393,
+          620,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          689,
+          1393,
+          838,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      }
+    ],
+    "process_flower_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1260,
+          650,
+          1494,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "process_flower": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          71,
+          1393,
+          215,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          273,
+          1393,
+          416,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          5,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          477,
+          1393,
+          620,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          689,
+          1393,
+          838,
+          1564
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          152,
+          171
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.47368421052631576,
+          0.6
+        ]
+      }
+    ],
+    "process_explore_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1519,
+          0,
+          1774,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "process_explore_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1519,
+          0,
+          1774,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "process_explore_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          54,
+          1574,
+          213,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          269,
+          1574,
+          428,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          1574,
+          638,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          1574,
+          837,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      }
+    ],
+    "process_explore_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1519,
+          650,
+          1774,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "process_explore": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          54,
+          1574,
+          213,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          269,
+          1574,
+          428,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          1574,
+          638,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          1574,
+          837,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      }
+    ],
+    "feedback_look_left": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "feedback_notes_left": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1519,
+          0,
+          1774,
+          327
+        ],
+        "scale": 2
+      }
+    ],
+    "feedback_bowl_left": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          750,
+          95,
+          1065,
+          430
+        ],
+        "scale": 3
+      }
+    ],
+    "feedback_sit_left": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "feedback_look_right": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": true
+      }
+    ],
+    "feedback_notes_right": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1519,
+          0,
+          1774,
+          327
+        ],
+        "scale": 2,
+        "flip": true
+      }
+    ],
+    "feedback_bowl_right": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          750,
+          95,
+          1065,
+          430
+        ],
+        "scale": 3,
+        "flip": true
+      }
+    ],
+    "feedback_sit_right": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": true
+      }
+    ],
+    "feedback_look_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          83,
+          14,
+          189,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          9,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          285,
+          14,
+          394,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          6,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          488,
+          14,
+          603,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          694,
+          14,
+          801,
+          181
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          115,
+          167
+        ],
+        "offset": [
+          8,
+          0
+        ],
+        "body_anchor": [
+          0.5391304347826087,
+          0.6
+        ]
+      }
+    ],
+    "feedback_notes_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          54,
+          1574,
+          213,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          269,
+          1574,
+          428,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          466,
+          1574,
+          638,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          680,
+          1574,
+          837,
+          1756
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          172,
+          182
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.48255813953488375,
+          0.6
+        ]
+      }
+    ],
+    "feedback_bowl_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          94,
+          722,
+          303,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          455,
+          722,
+          663,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          3,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          817,
+          722,
+          1025,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          4,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/top-supported.png",
+        "rect": [
+          1177,
+          722,
+          1386,
+          1058
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          212,
+          336
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5047169811320755,
+          0.6
+        ]
+      }
+    ],
+    "feedback_sit_top": [
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          76,
+          194,
+          202,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          14,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          275,
+          194,
+          414,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          2,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          480,
+          194,
+          617,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/normal.png",
+        "rect": [
+          690,
+          194,
+          816,
+          345
+        ],
+        "fit": [
+          196,
+          150
+        ],
+        "canvas": [
+          141,
+          151
+        ],
+        "offset": [
+          13,
+          0
+        ],
+        "body_anchor": [
+          0.5177304964539007,
+          0.6
+        ]
+      }
+    ],
+    "feedback_look_bottom": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          1200,
+          620,
+          1490,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "feedback_notes_bottom": [
+      {
+        "image": "assets/hollow_knight/adventure-atlas.png",
+        "rect": [
+          1519,
+          650,
+          1774,
+          887
+        ],
+        "scale": 2
+      }
+    ],
+    "feedback_bowl_bottom": [
+      {
+        "image": "assets/hollow_knight/edges-atlas.png",
+        "rect": [
+          775,
+          800,
+          1080,
+          1086
+        ],
+        "scale": 3
+      }
+    ],
+    "feedback_sit_bottom": [
+      {
+        "image": "assets/hollow_knight/atlas.png",
+        "rect": [
+          430,
+          690,
+          770,
+          960
+        ],
+        "scale": 3,
+        "flip": false
+      }
+    ],
+    "monarch_wings": [
+      {
+        "image": "assets/hollow_knight/animation-v2/wing-layer.png",
+        "rect": [
+          9,
+          191,
+          534,
+          496
+        ],
+        "fit": [
+          196,
+          106
+        ],
+        "canvas": [
+          525,
+          305
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "body_anchor": [
+          0.4990476190476191,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/wing-layer.png",
+        "rect": [
+          559,
+          191,
+          1070,
+          496
+        ],
+        "fit": [
+          196,
+          106
+        ],
+        "canvas": [
+          525,
+          305
+        ],
+        "offset": [
+          7,
+          0
+        ],
+        "body_anchor": [
+          0.4990476190476191,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/wing-layer.png",
+        "rect": [
+          1096,
+          191,
+          1619,
+          496
+        ],
+        "fit": [
+          196,
+          106
+        ],
+        "canvas": [
+          525,
+          305
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.4990476190476191,
+          0.6
+        ]
+      },
+      {
+        "image": "assets/hollow_knight/animation-v2/wing-layer.png",
+        "rect": [
+          1641,
+          191,
+          2163,
+          496
+        ],
+        "fit": [
+          196,
+          106
+        ],
+        "canvas": [
+          525,
+          305
+        ],
+        "offset": [
+          1,
+          0
+        ],
+        "body_anchor": [
+          0.4990476190476191,
+          0.6
+        ]
+      }
+    ]
+  },
+  "animation_style": "knight-frames",
+  "timings": {
+    "idle": [
+      18.0,
+      1.2,
+      1.4,
+      1.2
+    ],
+    "relax": [
+      22.0,
+      1.2,
+      1.8,
+      1.2
+    ],
+    "sleep": [
+      3.0,
+      2.8,
+      3.2,
+      3.0
+    ],
+    "eat": [
+      10.0,
+      1.2,
+      1.5,
+      1.3
+    ],
+    "process_nail": [
+      17.0,
+      1.0,
+      1.0,
+      1.2
+    ],
+    "process_shell": [
+      20.0,
+      1.4,
+      1.8,
+      1.4
+    ],
+    "process_soul": [
+      21.0,
+      1.6,
+      1.8,
+      1.6
+    ],
+    "process_battle": [
+      19.0,
+      1.2,
+      1.0,
+      1.2
+    ],
+    "process_flower": [
+      25.0,
+      1.6,
+      2.0,
+      1.5
+    ],
+    "process_explore": [
+      22.0,
+      1.4,
+      2.0,
+      1.3
+    ],
+    "work": [
+      19.0,
+      1.2,
+      1.0,
+      1.2
+    ],
+    "study": [
+      17.0,
+      1.0,
+      1.0,
+      1.2
+    ],
+    "process_read": [
+      22.0,
+      1.4,
+      2.0,
+      1.3
+    ],
+    "process_notes": [
+      22.0,
+      1.4,
+      2.0,
+      1.3
+    ],
+    "process_code": [
+      19.0,
+      1.2,
+      1.0,
+      1.2
+    ],
+    "process_sketch": [
+      21.0,
+      1.6,
+      1.8,
+      1.6
+    ],
+    "process_organize": [
+      25.0,
+      1.6,
+      2.0,
+      1.5
+    ],
+    "process_review": [
+      22.0,
+      1.4,
+      2.0,
+      1.3
+    ],
+    "eat_top": [
+      10.0,
+      1.2,
+      1.5,
+      1.3
+    ],
+    "monarch_wings": [
+      22.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "idle_top": [
+      18.0,
+      1.2,
+      1.4,
+      1.2
+    ],
+    "relax_top": [
+      22.0,
+      1.2,
+      1.8,
+      1.2
+    ],
+    "process_nail_top": [
+      17.0,
+      1.0,
+      1.0,
+      1.2
+    ],
+    "process_shell_top": [
+      20.0,
+      1.4,
+      1.8,
+      1.4
+    ],
+    "process_soul_top": [
+      21.0,
+      1.6,
+      1.8,
+      1.6
+    ],
+    "process_battle_top": [
+      19.0,
+      1.2,
+      1.0,
+      1.2
+    ],
+    "process_flower_top": [
+      25.0,
+      1.6,
+      2.0,
+      1.5
+    ],
+    "process_explore_top": [
+      22.0,
+      1.4,
+      2.0,
+      1.3
+    ],
+    "work_top": [
+      19.0,
+      1.2,
+      1.0,
+      1.2
+    ],
+    "study_top": [
+      17.0,
+      1.0,
+      1.0,
+      1.2
+    ],
+    "feedback_look_top": [
+      18.0,
+      1.2,
+      1.4,
+      1.2
+    ],
+    "feedback_notes_top": [
+      22.0,
+      1.4,
+      2.0,
+      1.3
+    ],
+    "feedback_sit_top": [
+      22.0,
+      1.2,
+      1.8,
+      1.2
+    ],
+    "feedback_bowl_top": [
+      10.0,
+      1.2,
+      1.5,
+      1.3
+    ]
+  },
+  "rigs": {
+    "idle_left": "idle",
+    "idle_right": "idle",
+    "idle_bottom": "idle",
+    "relax_left": "relax",
+    "relax_right": "relax",
+    "relax_bottom": "relax",
+    "work_left": "battle",
+    "study_left": "nail",
+    "eat_left": "eat",
+    "sleep_left": "sleep",
+    "sleep_top": "sleep",
+    "work_bottom": "battle",
+    "study_bottom": "nail",
+    "eat_bottom": "eat",
+    "sleep_bottom": "sleep",
+    "work_right": "battle",
+    "study_right": "nail",
+    "eat_right": "eat",
+    "sleep_right": "sleep",
+    "feedback_look": "look",
+    "feedback_notes": "notes",
+    "feedback_bowl": "bowl",
+    "feedback_sit": "sit",
+    "drag": "drag",
+    "process_nail_left": "nail",
+    "process_nail_right": "nail",
+    "process_nail_bottom": "nail",
+    "process_shell_left": "shell",
+    "process_shell_right": "shell",
+    "process_shell_bottom": "shell",
+    "process_soul_left": "soul",
+    "process_soul_right": "soul",
+    "process_soul_bottom": "soul",
+    "process_battle_left": "battle",
+    "process_battle_right": "battle",
+    "process_battle_bottom": "battle",
+    "process_flower_left": "flower",
+    "process_flower_right": "flower",
+    "process_flower_bottom": "flower",
+    "process_explore_left": "explore",
+    "process_explore_right": "explore",
+    "process_explore_bottom": "explore",
+    "feedback_look_left": "look",
+    "feedback_notes_left": "notes",
+    "feedback_bowl_left": "bowl",
+    "feedback_sit_left": "sit",
+    "feedback_look_right": "look",
+    "feedback_notes_right": "notes",
+    "feedback_bowl_right": "bowl",
+    "feedback_sit_right": "sit",
+    "feedback_look_bottom": "look",
+    "feedback_notes_bottom": "notes",
+    "feedback_bowl_bottom": "bowl",
+    "feedback_sit_bottom": "sit"
+  },
+  "micro_motion": true,
+  "frame_sequences": {
+    "monarch_wings": [
+      0,
+      2,
+      3,
+      0
+    ],
+    "work": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "study": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "work_top": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "study_top": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "process_nail_top": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "process_nail": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "process_soul_top": [
+      0,
+      3,
+      0,
+      3
+    ],
+    "process_soul": [
+      0,
+      3,
+      0,
+      3
+    ],
+    "process_battle_top": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "process_battle": [
+      0,
+      1,
+      3,
+      0
+    ]
+  },
+  "flying_states": [
+    "idle_top",
+    "relax_top",
+    "process_nail_top",
+    "process_shell_top",
+    "process_soul_top",
+    "process_battle_top",
+    "process_flower_top",
+    "process_explore_top",
+    "work_top",
+    "study_top",
+    "feedback_look_top",
+    "feedback_notes_top",
+    "feedback_sit_top"
+  ],
+  "wing_anchors": {
+    "idle_top": [
+      0.5391304347826087,
+      0.6
+    ],
+    "relax_top": [
+      0.5177304964539007,
+      0.6
+    ],
+    "process_nail_top": [
+      0.48068669527896996,
+      0.6
+    ],
+    "process_shell_top": [
+      0.5167785234899329,
+      0.6
+    ],
+    "process_soul_top": [
+      0.4863013698630137,
+      0.6
+    ],
+    "process_battle_top": [
+      0.5672268907563025,
+      0.6
+    ],
+    "process_flower_top": [
+      0.47368421052631576,
+      0.6
+    ],
+    "process_explore_top": [
+      0.48255813953488375,
+      0.6
+    ],
+    "work_top": [
+      0.5672268907563025,
+      0.6
+    ],
+    "study_top": [
+      0.48068669527896996,
+      0.6
+    ],
+    "feedback_look_top": [
+      0.5391304347826087,
+      0.6
+    ],
+    "feedback_notes_top": [
+      0.48255813953488375,
+      0.6
+    ],
+    "feedback_sit_top": [
+      0.5177304964539007,
+      0.6
+    ]
+  },
+  "wing_opacity": 0.72
+}

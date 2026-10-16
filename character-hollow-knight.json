@@ -1,0 +1,1474 @@
+{
+  "name": "小骑士",
+  "renderer": "images",
+  "color": "#e7edf3",
+  "fps": 6,
+  "motion": false,
+  "micro_motion": true,
+  "animation_style": "knight-frames-v3",
+  "screen_contacts": true,
+  "states": {
+    "idle": [
+      "assets/hollow_knight/animation-v3/frames/idle-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle-3.png"
+    ],
+    "relax": [
+      "assets/hollow_knight/animation-v3/frames/relax-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax-3.png"
+    ],
+    "sleep": [
+      "assets/hollow_knight/animation-v3/frames/sleep-0.png",
+      "assets/hollow_knight/animation-v3/frames/sleep-1.png",
+      "assets/hollow_knight/animation-v3/frames/sleep-2.png",
+      "assets/hollow_knight/animation-v3/frames/sleep-3.png"
+    ],
+    "eat": [
+      "assets/hollow_knight/animation-v3/frames/eat-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat-3.png"
+    ],
+    "process_nail": [
+      "assets/hollow_knight/animation-v3/frames/process_nail-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail-3.png"
+    ],
+    "process_shell": [
+      "assets/hollow_knight/animation-v3/frames/process_shell-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell-3.png"
+    ],
+    "process_soul": [
+      "assets/hollow_knight/animation-v3/frames/process_soul-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul-3.png"
+    ],
+    "process_battle": [
+      "assets/hollow_knight/animation-v3/frames/process_battle-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle-3.png"
+    ],
+    "process_flower": [
+      "assets/hollow_knight/animation-v3/frames/process_flower-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower-3.png"
+    ],
+    "process_explore": [
+      "assets/hollow_knight/animation-v3/frames/process_explore-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore-3.png"
+    ],
+    "idle_left": [
+      "assets/hollow_knight/animation-v3/frames/idle_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_left-3.png"
+    ],
+    "relax_left": [
+      "assets/hollow_knight/animation-v3/frames/relax_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_left-3.png"
+    ],
+    "sleep_left": [
+      "assets/hollow_knight/animation-v3/frames/sleep_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_left-3.png"
+    ],
+    "eat_left": [
+      "assets/hollow_knight/animation-v3/frames/eat_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_left-3.png"
+    ],
+    "process_nail_left": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-3.png"
+    ],
+    "process_shell_left": [
+      "assets/hollow_knight/animation-v3/frames/process_shell_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_left-3.png"
+    ],
+    "process_soul_left": [
+      "assets/hollow_knight/animation-v3/frames/process_soul_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_left-3.png"
+    ],
+    "process_battle_left": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-3.png"
+    ],
+    "process_flower_left": [
+      "assets/hollow_knight/animation-v3/frames/process_flower_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_left-3.png"
+    ],
+    "process_explore_left": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-3.png"
+    ],
+    "idle_right": [
+      "assets/hollow_knight/animation-v3/frames/idle_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_right-3.png"
+    ],
+    "relax_right": [
+      "assets/hollow_knight/animation-v3/frames/relax_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_right-3.png"
+    ],
+    "sleep_right": [
+      "assets/hollow_knight/animation-v3/frames/sleep_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_right-3.png"
+    ],
+    "eat_right": [
+      "assets/hollow_knight/animation-v3/frames/eat_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_right-3.png"
+    ],
+    "process_nail_right": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-3.png"
+    ],
+    "process_shell_right": [
+      "assets/hollow_knight/animation-v3/frames/process_shell_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_right-3.png"
+    ],
+    "process_soul_right": [
+      "assets/hollow_knight/animation-v3/frames/process_soul_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_right-3.png"
+    ],
+    "process_battle_right": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-3.png"
+    ],
+    "process_flower_right": [
+      "assets/hollow_knight/animation-v3/frames/process_flower_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_right-3.png"
+    ],
+    "process_explore_right": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-3.png"
+    ],
+    "idle_top": [
+      "assets/hollow_knight/animation-v3/frames/idle_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_top-3.png"
+    ],
+    "relax_top": [
+      "assets/hollow_knight/animation-v3/frames/relax_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_top-3.png"
+    ],
+    "sleep_top": [
+      "assets/hollow_knight/animation-v3/frames/sleep_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_top-3.png"
+    ],
+    "eat_top": [
+      "assets/hollow_knight/animation-v3/frames/eat_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_top-3.png"
+    ],
+    "process_nail_top": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-3.png"
+    ],
+    "process_shell_top": [
+      "assets/hollow_knight/animation-v3/frames/process_shell_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_top-3.png"
+    ],
+    "process_soul_top": [
+      "assets/hollow_knight/animation-v3/frames/process_soul_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_top-3.png"
+    ],
+    "process_battle_top": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-3.png"
+    ],
+    "process_flower_top": [
+      "assets/hollow_knight/animation-v3/frames/process_flower_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_top-3.png"
+    ],
+    "process_explore_top": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-3.png"
+    ],
+    "idle_bottom": [
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-3.png"
+    ],
+    "relax_bottom": [
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-3.png"
+    ],
+    "sleep_bottom": [
+      "assets/hollow_knight/animation-v3/frames/sleep_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/sleep_bottom-3.png"
+    ],
+    "eat_bottom": [
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-3.png"
+    ],
+    "process_nail_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-3.png"
+    ],
+    "process_shell_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_shell_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_shell_bottom-3.png"
+    ],
+    "process_soul_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_soul_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_soul_bottom-3.png"
+    ],
+    "process_battle_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-3.png"
+    ],
+    "process_flower_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_flower_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_flower_bottom-3.png"
+    ],
+    "process_explore_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-3.png"
+    ],
+    "drag": [
+      "assets/hollow_knight/animation-v3/frames/drag-0.png",
+      "assets/hollow_knight/animation-v3/frames/drag-1.png",
+      "assets/hollow_knight/animation-v3/frames/drag-2.png",
+      "assets/hollow_knight/animation-v3/frames/drag-3.png"
+    ],
+    "feedback_look": [
+      "assets/hollow_knight/animation-v3/frames/feedback_look-0.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_look-1.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_look-2.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_look-3.png"
+    ],
+    "feedback_notes": [
+      "assets/hollow_knight/animation-v3/frames/feedback_notes-0.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_notes-1.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_notes-2.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_notes-3.png"
+    ],
+    "feedback_bowl": [
+      "assets/hollow_knight/animation-v3/frames/feedback_bowl-0.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_bowl-1.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_bowl-2.png",
+      "assets/hollow_knight/animation-v3/frames/feedback_bowl-3.png"
+    ],
+    "feedback_sit": [
+      "assets/hollow_knight/animation-v3/frames/relax-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax-3.png"
+    ],
+    "work": [
+      "assets/hollow_knight/animation-v3/frames/process_battle-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle-3.png"
+    ],
+    "study": [
+      "assets/hollow_knight/animation-v3/frames/process_nail-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail-3.png"
+    ],
+    "work_left": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_left-3.png"
+    ],
+    "study_left": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_left-3.png"
+    ],
+    "feedback_look_left": [
+      "assets/hollow_knight/animation-v3/frames/idle_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_left-3.png"
+    ],
+    "feedback_notes_left": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_left-3.png"
+    ],
+    "feedback_bowl_left": [
+      "assets/hollow_knight/animation-v3/frames/eat_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_left-3.png"
+    ],
+    "feedback_sit_left": [
+      "assets/hollow_knight/animation-v3/frames/relax_left-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_left-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_left-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_left-3.png"
+    ],
+    "work_right": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_right-3.png"
+    ],
+    "study_right": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_right-3.png"
+    ],
+    "feedback_look_right": [
+      "assets/hollow_knight/animation-v3/frames/idle_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_right-3.png"
+    ],
+    "feedback_notes_right": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_right-3.png"
+    ],
+    "feedback_bowl_right": [
+      "assets/hollow_knight/animation-v3/frames/eat_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_right-3.png"
+    ],
+    "feedback_sit_right": [
+      "assets/hollow_knight/animation-v3/frames/relax_right-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_right-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_right-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_right-3.png"
+    ],
+    "work_top": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_top-3.png"
+    ],
+    "study_top": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_top-3.png"
+    ],
+    "feedback_look_top": [
+      "assets/hollow_knight/animation-v3/frames/idle_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_top-3.png"
+    ],
+    "feedback_notes_top": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_top-3.png"
+    ],
+    "feedback_bowl_top": [
+      "assets/hollow_knight/animation-v3/frames/eat_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_top-3.png"
+    ],
+    "feedback_sit_top": [
+      "assets/hollow_knight/animation-v3/frames/relax_top-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_top-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_top-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_top-3.png"
+    ],
+    "work_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_battle_bottom-3.png"
+    ],
+    "study_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_nail_bottom-3.png"
+    ],
+    "feedback_look_bottom": [
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/idle_bottom-3.png"
+    ],
+    "feedback_notes_bottom": [
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/process_explore_bottom-3.png"
+    ],
+    "feedback_bowl_bottom": [
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/eat_bottom-3.png"
+    ],
+    "feedback_sit_bottom": [
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-0.png",
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-1.png",
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-2.png",
+      "assets/hollow_knight/animation-v3/frames/relax_bottom-3.png"
+    ]
+  },
+  "timings": {
+    "idle": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "relax": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "sleep": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "eat": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_nail": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_shell": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_soul": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_battle": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_flower": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_explore": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "idle_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "relax_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "sleep_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "eat_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_nail_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_shell_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_soul_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_battle_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_flower_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_explore_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "idle_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "relax_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "sleep_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "eat_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_nail_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_shell_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_soul_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_battle_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_flower_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_explore_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "idle_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "relax_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "sleep_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "eat_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_nail_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_shell_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_soul_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_battle_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_flower_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_explore_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "idle_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "relax_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "sleep_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "eat_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_nail_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_shell_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_soul_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_battle_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_flower_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "process_explore_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "drag": [
+      2.0,
+      1.0,
+      1.0,
+      2.0
+    ],
+    "feedback_look": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_notes": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_bowl": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_sit": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "work": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "study": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "work_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "study_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_look_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_notes_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_bowl_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_sit_left": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "work_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "study_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_look_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_notes_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_bowl_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_sit_right": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "work_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "study_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_look_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_notes_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_bowl_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_sit_top": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "work_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "study_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_look_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_notes_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_bowl_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    "feedback_sit_bottom": [
+      12.0,
+      2.0,
+      2.0,
+      8.0
+    ]
+  },
+  "frame_sequences": {
+    "idle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "relax": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sleep": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "eat": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_nail": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_shell": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_soul": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_battle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_flower": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_explore": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "relax_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sleep_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "eat_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_nail_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_shell_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_soul_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_battle_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_flower_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_explore_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "relax_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sleep_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "eat_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_nail_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_shell_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_soul_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_battle_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_flower_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_explore_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "relax_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sleep_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "eat_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_nail_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_shell_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_soul_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_battle_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_flower_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_explore_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "idle_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "relax_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sleep_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "eat_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_nail_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_shell_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_soul_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_battle_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_flower_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "process_explore_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "drag": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_look": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_notes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_bowl": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_sit": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "work": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "study": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "work_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "study_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_look_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_notes_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_bowl_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_sit_left": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "work_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "study_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_look_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_notes_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_bowl_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_sit_right": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "work_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "study_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_look_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_notes_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_bowl_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_sit_top": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "work_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "study_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_look_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_notes_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_bowl_bottom": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feedback_sit_bottom": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

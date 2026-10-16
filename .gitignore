@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.build/
+.build-tools/
+.release*/
+releases/
+build/
+dist/
+
+# 玩家存档和日志
+save.json
+save.json.*
+Saved/diagnostics/
+
+# 可重新生成的预览
+Saved/**/continuous-review/
+Saved/**/integrated-review/

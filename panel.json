@@ -1,0 +1,33 @@
+{
+  "name": "圣巢静夜",
+  "font": "SimSun",
+  "font_size": 10,
+  "title_font": "SimSun",
+  "padding": 10,
+  "show_header": false,
+  "header_text": "MY SERVANT",
+  "colors": {
+    "background": "#0b0f15",
+    "surface": "#0b0f15",
+    "text": "#deded4",
+    "muted": "#969a9e",
+    "subtle": "#606970",
+    "border": "#afb3b2",
+    "button": "#0b0f15",
+    "hover": "#0b0f15",
+    "pressed": "#0b0f15",
+    "selected": "#0b0f15",
+    "accent": "#deded4",
+    "accent_text": "#deded4",
+    "track": "#272d3c",
+    "hunger": "#b4a98d",
+    "energy": "#c9cdda",
+    "stress": "#a5a3bc",
+    "disabled": "#606777",
+    "header": "#0b0f15",
+    "header_text": "#e2e0d8",
+    "bubble": "#171c28",
+    "bubble_text": "#e2e0d8"
+  },
+  "layout": "hollow"
+}

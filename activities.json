@@ -1,0 +1,307 @@
+{
+  "theme": "hollow-knight",
+  "labels": {
+    "study": "修行",
+    "work": "探险",
+    "currency": "吉欧",
+    "growth": "成长",
+    "job": "委托",
+    "learning": "修行方向"
+  },
+  "thresholds": [
+    60,
+    180,
+    420
+  ],
+  "experience_rates": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "routes": {
+    "office": {
+      "name": "骨钉",
+      "courses": [
+        "基础挥斩",
+        "骨钉连击",
+        "蓄力斩练习",
+        "骨钉技艺"
+      ],
+      "results": [
+        "挥斩心得",
+        "连击心得",
+        "蓄力斩心得",
+        "骨钉札记"
+      ],
+      "abilities": [
+        "旋风劈砍",
+        "冲刺劈砍",
+        "强力劈砍"
+      ],
+      "animations": [
+        "nail"
+      ],
+      "training": [
+        "旋风劈砍",
+        "冲刺劈砍",
+        "强力劈砍"
+      ]
+    },
+    "tech": {
+      "name": "外壳",
+      "courses": [
+        "落点练习",
+        "锤炼外壳",
+        "闪避练习",
+        "险境穿行"
+      ],
+      "results": [
+        "落点心得",
+        "外壳心得",
+        "闪避心得",
+        "险境笔记"
+      ],
+      "abilities": [
+        "稳健落点",
+        "灵活闪避",
+        "坚韧外壳"
+      ],
+      "animations": [
+        "shell"
+      ],
+      "training": [
+        "落点练习",
+        "闪避练习",
+        "锤炼外壳"
+      ]
+    },
+    "design": {
+      "name": "法术",
+      "courses": [
+        "凝聚灵魂",
+        "灵魂聚焦",
+        "法术练习",
+        "深度修炼"
+      ],
+      "results": [
+        "灵魂札记",
+        "聚焦心得",
+        "法术札记",
+        "灵魂印记"
+      ],
+      "abilities": [
+        "复仇之魂",
+        "荒芜俯冲",
+        "嚎叫幽灵"
+      ],
+      "animations": [
+        "soul"
+      ],
+      "training": [
+        "复仇之魂",
+        "荒芜俯冲",
+        "嚎叫幽灵"
+      ]
+    }
+  },
+  "jobs": {
+    "temp": {
+      "name": "游历十字路口",
+      "route": null,
+      "requirement": 0,
+      "income": 12,
+      "energy": 6,
+      "stress": 4,
+      "contents": [
+        "探索遗忘十字路口",
+        "寻访德特茅斯",
+        "探查苍绿之径"
+      ],
+      "result": "旅途笔记",
+      "animations": [
+        "explore"
+      ]
+    },
+    "clerk": {
+      "name": "挑战假骑士",
+      "route": "office",
+      "requirement": 60,
+      "income": 18,
+      "energy": 5,
+      "stress": 3,
+      "contents": [
+        "重访假骑士",
+        "练习骨钉对决",
+        "探索祖先山丘"
+      ],
+      "result": "战斗心得",
+      "animations": [
+        "battle"
+      ]
+    },
+    "admin": {
+      "name": "挑战螳螂领主",
+      "route": "office",
+      "requirement": 180,
+      "income": 28,
+      "energy": 5,
+      "stress": 4,
+      "contents": [
+        "挑战螳螂领主",
+        "重访螳螂村",
+        "磨练对决技巧"
+      ],
+      "result": "对决札记",
+      "animations": [
+        "battle"
+      ]
+    },
+    "coordinator": {
+      "name": "征战斗兽场",
+      "route": "office",
+      "requirement": 420,
+      "income": 42,
+      "energy": 6,
+      "stress": 5,
+      "contents": [
+        "参加勇士试炼",
+        "参加征服者试炼",
+        "参加愚人试炼"
+      ],
+      "result": "试炼印记",
+      "animations": [
+        "battle"
+      ]
+    },
+    "tester": {
+      "name": "护送娇嫩花",
+      "route": "tech",
+      "requirement": 60,
+      "income": 20,
+      "energy": 6,
+      "stress": 4,
+      "contents": [
+        "护送娇嫩花",
+        "探路女王花园",
+        "重访灰色哀悼者"
+      ],
+      "result": "花之纪念",
+      "animations": [
+        "flower"
+      ]
+    },
+    "developer": {
+      "name": "巡行水晶山峰",
+      "route": "tech",
+      "requirement": 180,
+      "income": 32,
+      "energy": 6,
+      "stress": 5,
+      "contents": [
+        "巡行水晶山峰",
+        "探查深邃巢穴",
+        "穿行古老盆地"
+      ],
+      "result": "路线笔记",
+      "animations": [
+        "explore"
+      ]
+    },
+    "engineer": {
+      "name": "穿越白色宫殿",
+      "route": "tech",
+      "requirement": 420,
+      "income": 48,
+      "energy": 7,
+      "stress": 6,
+      "contents": [
+        "穿越白色宫殿",
+        "练习险境穿行",
+        "重访宫殿庭院"
+      ],
+      "result": "宫殿札记",
+      "animations": [
+        "explore"
+      ]
+    },
+    "assistant": {
+      "name": "寻访梦境",
+      "route": "design",
+      "requirement": 60,
+      "income": 18,
+      "energy": 5,
+      "stress": 3,
+      "contents": [
+        "寻访梦境",
+        "追寻低语之根",
+        "重访安息之地"
+      ],
+      "result": "梦境札记",
+      "animations": [
+        "soul"
+      ]
+    },
+    "designer": {
+      "name": "挑战灵魂大师",
+      "route": "design",
+      "requirement": 180,
+      "income": 30,
+      "energy": 6,
+      "stress": 4,
+      "contents": [
+        "挑战灵魂大师",
+        "探查灵魂圣所",
+        "磨练灵魂法术"
+      ],
+      "result": "灵魂心得",
+      "animations": [
+        "battle"
+      ]
+    },
+    "independent": {
+      "name": "挑战灵魂暴君",
+      "route": "design",
+      "requirement": 420,
+      "income": 45,
+      "energy": 6,
+      "stress": 5,
+      "contents": [
+        "挑战灵魂暴君",
+        "重访梦境战场",
+        "探寻圣巢往事"
+      ],
+      "result": "梦境印记",
+      "animations": [
+        "battle"
+      ]
+    }
+  },
+  "activity_rules": {
+    "工作": {
+      "hours": 10,
+      "max_hunger": 60,
+      "min_energy": 50
+    },
+    "学习": {
+      "hours": 10,
+      "max_hunger": 60,
+      "min_energy": 40
+    },
+    "睡眠": {
+      "hours": 8,
+      "max_hunger": 40,
+      "min_energy": 0
+    },
+    "进食": {
+      "hours": 0.25,
+      "max_hunger": 100,
+      "min_energy": 0
+    },
+    "休闲": {
+      "hours": 8,
+      "max_hunger": 100,
+      "min_energy": 0
+    }
+  }
+}

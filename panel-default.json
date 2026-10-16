@@ -1,0 +1,32 @@
+{
+  "name": "简洁浅色",
+  "font": "Microsoft YaHei UI",
+  "font_size": 9,
+  "title_font": "Segoe UI",
+  "padding": 14,
+  "show_header": false,
+  "header_text": "MYSERVANT",
+  "colors": {
+    "background": "#eef2f5",
+    "surface": "#ffffff",
+    "text": "#253346",
+    "muted": "#65768a",
+    "subtle": "#708095",
+    "border": "#ccd6df",
+    "button": "#edf2f6",
+    "hover": "#e0e9f1",
+    "pressed": "#d1dce7",
+    "selected": "#bfe5dc",
+    "accent": "#65bba9",
+    "accent_text": "#123a32",
+    "track": "#e8edf2",
+    "hunger": "#c89f56",
+    "energy": "#65bba9",
+    "stress": "#9690c8",
+    "disabled": "#9aa7b6",
+    "header": "#253346",
+    "header_text": "#eef2f5",
+    "bubble": "#f4f7f8",
+    "bubble_text": "#344657"
+  }
+}

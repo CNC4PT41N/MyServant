@@ -1,0 +1,318 @@
+{
+  "theme": "everyday",
+  "labels": {
+    "study": "学习",
+    "work": "上班",
+    "currency": "资金",
+    "growth": "成长",
+    "job": "职业",
+    "learning": "学习方向"
+  },
+  "thresholds": [
+    60,
+    180,
+    420
+  ],
+  "experience_rates": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "routes": {
+    "office": {
+      "name": "办公",
+      "courses": [
+        "办公基础",
+        "表格与文档",
+        "流程管理",
+        "项目统筹"
+      ],
+      "results": [
+        "办公练习",
+        "文档模板",
+        "流程草案",
+        "项目方案"
+      ],
+      "abilities": [
+        "文档整理",
+        "流程规划",
+        "项目协调"
+      ],
+      "animations": [
+        "read",
+        "notes",
+        "organize"
+      ]
+    },
+    "tech": {
+      "name": "技术",
+      "courses": [
+        "计算机基础",
+        "编程入门",
+        "程序设计",
+        "系统设计"
+      ],
+      "results": [
+        "代码练习",
+        "练习脚本",
+        "小工具",
+        "模块原型"
+      ],
+      "abilities": [
+        "脚本编写",
+        "工具开发",
+        "系统设计"
+      ],
+      "animations": [
+        "read",
+        "notes",
+        "code"
+      ]
+    },
+    "design": {
+      "name": "设计",
+      "courses": [
+        "绘画基础",
+        "构图与配色",
+        "视觉设计",
+        "创作研究"
+      ],
+      "results": [
+        "速写草稿",
+        "配色练习",
+        "海报习作",
+        "插画作品"
+      ],
+      "abilities": [
+        "构图配色",
+        "视觉设计",
+        "独立创作"
+      ],
+      "animations": [
+        "read",
+        "notes",
+        "sketch"
+      ]
+    }
+  },
+  "jobs": {
+    "temp": {
+      "name": "临时工",
+      "route": null,
+      "requirement": 0,
+      "income": 12,
+      "energy": 6,
+      "stress": 4,
+      "contents": [
+        "整理货架",
+        "打包物品",
+        "清点库存"
+      ],
+      "result": "整理成果",
+      "animations": [
+        "organize",
+        "type",
+        "review"
+      ]
+    },
+    "clerk": {
+      "name": "文员",
+      "route": "office",
+      "requirement": 60,
+      "income": 18,
+      "energy": 5,
+      "stress": 3,
+      "contents": [
+        "整理资料",
+        "录入数据",
+        "编排文档"
+      ],
+      "result": "工作文档",
+      "animations": [
+        "organize",
+        "type",
+        "review"
+      ]
+    },
+    "admin": {
+      "name": "行政专员",
+      "route": "office",
+      "requirement": 180,
+      "income": 28,
+      "energy": 5,
+      "stress": 4,
+      "contents": [
+        "协调安排",
+        "归档资料",
+        "整理报表"
+      ],
+      "result": "工作文档",
+      "animations": [
+        "organize",
+        "type",
+        "review"
+      ]
+    },
+    "coordinator": {
+      "name": "项目助理",
+      "route": "office",
+      "requirement": 420,
+      "income": 42,
+      "energy": 6,
+      "stress": 5,
+      "contents": [
+        "梳理需求",
+        "跟进项目",
+        "协调进度"
+      ],
+      "result": "工作文档",
+      "animations": [
+        "organize",
+        "type",
+        "review"
+      ]
+    },
+    "tester": {
+      "name": "测试助理",
+      "route": "tech",
+      "requirement": 60,
+      "income": 20,
+      "energy": 6,
+      "stress": 4,
+      "contents": [
+        "检查功能",
+        "复现问题",
+        "整理测试记录"
+      ],
+      "result": "测试记录",
+      "animations": [
+        "code",
+        "review",
+        "notes"
+      ]
+    },
+    "developer": {
+      "name": "开发人员",
+      "route": "tech",
+      "requirement": 180,
+      "income": 32,
+      "energy": 6,
+      "stress": 5,
+      "contents": [
+        "实现功能",
+        "修复问题",
+        "整理代码"
+      ],
+      "result": "功能模块",
+      "animations": [
+        "code",
+        "review",
+        "notes"
+      ]
+    },
+    "engineer": {
+      "name": "软件工程师",
+      "route": "tech",
+      "requirement": 420,
+      "income": 48,
+      "energy": 7,
+      "stress": 6,
+      "contents": [
+        "优化性能",
+        "设计模块",
+        "审查代码"
+      ],
+      "result": "功能模块",
+      "animations": [
+        "code",
+        "review",
+        "notes"
+      ]
+    },
+    "assistant": {
+      "name": "制作助理",
+      "route": "design",
+      "requirement": 60,
+      "income": 18,
+      "energy": 5,
+      "stress": 3,
+      "contents": [
+        "整理素材",
+        "制作草图",
+        "调整版式"
+      ],
+      "result": "设计稿",
+      "animations": [
+        "sketch",
+        "draw",
+        "review"
+      ]
+    },
+    "designer": {
+      "name": "平面设计师",
+      "route": "design",
+      "requirement": 180,
+      "income": 30,
+      "energy": 6,
+      "stress": 4,
+      "contents": [
+        "设计海报",
+        "排版设计",
+        "绘制图标"
+      ],
+      "result": "设计稿",
+      "animations": [
+        "sketch",
+        "draw",
+        "review"
+      ]
+    },
+    "independent": {
+      "name": "独立设计师",
+      "route": "design",
+      "requirement": 420,
+      "income": 45,
+      "energy": 6,
+      "stress": 5,
+      "contents": [
+        "创作插画",
+        "设计视觉方案",
+        "完善作品"
+      ],
+      "result": "设计稿",
+      "animations": [
+        "sketch",
+        "draw",
+        "review"
+      ]
+    }
+  },
+  "activity_rules": {
+    "工作": {
+      "hours": 10,
+      "max_hunger": 60,
+      "min_energy": 50
+    },
+    "学习": {
+      "hours": 10,
+      "max_hunger": 60,
+      "min_energy": 40
+    },
+    "睡眠": {
+      "hours": 8,
+      "max_hunger": 40,
+      "min_energy": 0
+    },
+    "进食": {
+      "hours": 0.25,
+      "max_hunger": 100,
+      "min_energy": 0
+    },
+    "休闲": {
+      "hours": 8,
+      "max_hunger": 100,
+      "min_energy": 0
+    }
+  }
+}
